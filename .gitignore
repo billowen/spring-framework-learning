@@ -1,0 +1,9 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+.idea
+*.iml
+/out/
+*.iws
+*.ipr
+.gradle/4.4/fileHashes/fileHashes.bin

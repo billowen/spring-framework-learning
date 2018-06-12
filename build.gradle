@@ -8,11 +8,14 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     mavenCentral()
 }
 
 dependencies {
     compile('org.springframework:spring-context:5.0.6.RELEASE')
+    compile('org.aspectj:aspectjrt:1.9.1')
+    compile('org.aspectj:aspectjtools:1.9.1')
     //compile('org.springframework:spring-core:5.0.6.RELEASE')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
